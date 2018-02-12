@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1:3306
--- Généré le :  Dim 04 fév. 2018 à 21:12
+-- Généré le :  lun. 12 fév. 2018 à 20:30
 -- Version du serveur :  5.7.19
 -- Version de PHP :  5.6.31
 
@@ -21,6 +21,8 @@ SET time_zone = "+00:00";
 --
 -- Base de données :  `meteo`
 --
+CREATE DATABASE IF NOT EXISTS `meteo` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
+USE `meteo`;
 
 -- --------------------------------------------------------
 
